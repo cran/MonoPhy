@@ -80,7 +80,7 @@ PlotMonophyly(solution0, Ericactree, plot.type='monophyly', ladderize=TRUE, cex=
 PlotMonophyly(solution1, Ericactree, taxlevels=2, plot.type='taxonomy', cex=0.5)
 
 ## ---- fig.width=7, fig.height=14-----------------------------------------
-PlotMonophyly(solution1, Ericactree, taxlevels=2, plot.type='monoVStax', cex=0.4, label.offset=18) 
+PlotMonophyly(solution1, Ericactree, taxlevels=2, plot.type='monoVStax', cex=0.4, label.offset=18)
 
 ## ---- fig.width=7, fig.height=7------------------------------------------
 PlotMonophyly(solution1, Ericactree, taxlevels=1, plot.type='intruders', monocoll=TRUE, cex=0.5, label.offset=5)
