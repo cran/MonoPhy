@@ -1,4 +1,4 @@
-48c7f8416af5407923b0b515df07418b *DESCRIPTION
+18a5bcdd9cb09c8295bf277fd86408c3 *DESCRIPTION
 dfbe4f273cf5c15b2eeb0d0297239951 *NAMESPACE
 283e0263b717adaa5c570d40add972fb *R/AssessMonophyly.R
 be85d6e93ee9337d62fa2ecc7b65cc48 *R/GetAncNodes.R
@@ -14,9 +14,10 @@ cfc843806d92cc2c0ffa391e4f664950 *README.md
 540d6bc283f928028b22433761dd6386 *data/Ericacsubfams.rda
 034747e6606eed075b6fe320d588a4d9 *data/Ericactree.rda
 ea821d113e1bc03ee90fcd357327ffe3 *data/Ericactribes.rda
+c17c1d843cea971088e817d24d69a301 *inst/CITATION
 a40df1e57c4e2e81ab2d0208928ba163 *inst/doc/MonoPhyVignette.R
 73a4b27a8c2c9a3c4a7aa06aecc5f31b *inst/doc/MonoPhyVignette.Rmd
-6e760161610a23c6c6822ecc873cc389 *inst/doc/MonoPhyVignette.html
+300d91154effcbcd07d2c415674d5ab2 *inst/doc/MonoPhyVignette.html
 c2b8d2376012a78d1c0ca656cb1d1c08 *man/AssessMonophyly.Rd
 0c3c7f86b174c51ee92cc2f6799e73dd *man/GetAncNodes.Rd
 c01824fd12d0faf03583be98bc772023 *man/GetIntruderTaxa.Rd
