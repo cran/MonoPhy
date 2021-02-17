@@ -21,7 +21,7 @@ Object with saved output of the 'AssessMonophyly' function.
 An object of type 'phy', rooted phylogeny (the same which was used to obtain the solution before).
 }
   \item{taxlevels}{
-An integer or name corresponding to the desired taxonomic level (i.e. the number of its column in the taxonimy table, not counting the tip names). Default is 1.
+An integer or name corresponding to the desired taxonomic level (i.e. the number of its column in the taxonomy table, not counting the tip names). Default is 1.
 }
   \item{plot.type}{
 Either "monophyly", "taxonomy", "intruders" or "monoVStax", see details. Default is "monophyly".
@@ -103,8 +103,9 @@ PlotMonophyly(solution=solution, tree=Ericactree, plot.type='taxonomy', ladderiz
 
 # especially for larger phylogenies it is recommended to print the plot to a pdf file instead of
 #plotting, for easier inspection
+# the argument "PDF" has to be set to "TRUE" for the example to actually output PDFs.
 PlotMonophyly(solution=solution, tree=Ericactree, plot.type='monoVStax', ladderize=TRUE,
-PDF=TRUE, mono.colour='PRGn', PDF_filename='MonoTaxplot.pdf')
+PDF=FALSE, mono.colour='PRGn', PDF_filename='MonoTaxplot.pdf')
 PlotMonophyly(solution=solution, tree=Ericactree, plot.type='taxonomy', ladderize=TRUE,
-PDF=TRUE, PDF_filename='Taxplot.pdf')
-}
+PDF=FALSE, PDF_filename='Taxplot.pdf')}
+
